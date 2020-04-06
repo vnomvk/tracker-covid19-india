@@ -1,0 +1,15 @@
+.ct-wrapper {
+  margin: 0 auto;
+  padding: 24px;
+  .ct-head-container {
+    .ct-head-content {
+      text-align: center;
+      &::first-letter {
+        color: #f82828;
+      }
+    }
+  }
+  .ct-district-filter {
+    margin: 20px 0px 0px 0px;
+  }
+}

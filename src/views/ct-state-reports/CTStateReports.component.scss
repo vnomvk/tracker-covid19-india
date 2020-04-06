@@ -1,0 +1,29 @@
+.ct-state-reports-wrapper {
+  overflow: auto;
+  width: 100%;
+  padding: 1px;
+  padding: 24px 1px 1px 1px;
+  .ct-state-reports-container,
+  .ct-state-no-records {
+    padding: 24px 0px 0px 0px;
+  }
+  .ct-state-reports-accordion {
+    &.ui.styled.accordion {
+      width: 100%;
+      font-size: 1em;
+    }
+    &::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+  .ct-state-reports-acc-label {
+    float: right;
+    font-size: 0.7em;
+  }
+  .ct-report-gc {
+    text-align: center;
+    font-size: 0.7em;
+  }
+}
